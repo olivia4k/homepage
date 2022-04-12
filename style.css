@@ -1,0 +1,32 @@
+body {
+    background: #fdeed9;
+    color:  #3751b7;
+}
+
+h1 {
+    color: #3751b7;
+}
+h2 {
+    color: #3751b7;
+}
+
+.hotpink-header {
+    color:  #3751b7;
+    background-color: white;
+    
+}
+
+.toolbar-black {
+    color:rgb(102, 102, 102);
+}
+
+.all-links {
+    color:black;
+    background-color: white;
+}
+
+.toolbar-links {
+    color: #3751b7;
+    background-color: rgb(255, 255, 255);
+    font-style: bold;
+}
