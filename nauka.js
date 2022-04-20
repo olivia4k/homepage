@@ -1,4 +1,4 @@
-console.log ('wtf?!');
+console.log("wtf?!");
 
-const firstName = 'Olivia';
-console.log (`Cześć, jestem ${firstName}`)
+const firstName = "Olivia";
+console.log(`Cześć, jestem ${firstName}`);
