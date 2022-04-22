@@ -10,43 +10,30 @@
 
   <body>
     <header>
-      <nav class="toolbar-black">
-        <a class="toolbar-links" href="index.html">Strona główna</a>
-        <a class="toolbar-links" href="nauka-html.html">Nauka HTML</a>
-        <a class="toolbar-links" href="nauka-css.html">Nauka CSS</a>
-        <a class="toolbar-links" href="nauka-js.html">Nauka JS</a>
+      <nav class="toolbar">
+        <a class="toolbar__links toolbar__links--main" href="index.html">Strona główna</a>
+        <a class="toolbar__links" href="nauka-html.html">Nauka HTML</a>
+        <a class="toolbar__links" href="nauka-css.html">Nauka CSS</a>
+        <a class="toolbar__links" href="nauka-js.html">Nauka JS</a>
       </nav>
     </header>
     <main>
-      <header id="top">
-        <h1 class="hotpink-header">Olivia Klepacka - kim jestem</h1>
+    
+      <header class="main-heading">
+        <h1 class="main-heading__first">Olivia Klepacka - kim jestem</h1>
       </header>
       <img class="img" src="IMG_0274.JPG" />
-      <div class="box">Olivia Klepacka - kim jestem</div>
-      <div class="box">Dlaczego warto uczyć się Frontendu</div>
-      <div class="box">
-        CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS
-        CSS CSS CSS CSS
-      </div>
-      <div class="box">
-        HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML
-        HTML HTML HTML HTML HTML
-      </div>
-      <div class="box">
-        JS JS JS JS JS JS JS JS JS JS JS JS JS JS JS JS JS JS JS JS JS JS JS JS
-        JS JS JS JS JS JS
-      </div>
-      <section>
+      <section class="ordinary-paragraph">
         <h2>Dlaczego Frontend</h2>
-        Ze względu na duże możliwości na rynku pracy zdecydowałam się na kurs
-        Frontendu. Od teraz będę prowadziła notatki dokumentujące mój postęp.
+            Ze względu na duże możliwości na rynku pracy zdecydowałam się na kurs
+        Frontendu. Ta strona ma za zadanie dokumentować i pokazywać mój postęp. Poniżej umieszczać będę notatki z kursu.
         <a class="all-links" href="#notatki">Przejdź do notatek.</a>
       </section>
 
-      <section id="notatki">
+      <section class="notes">
         <h2>Notatki</h2>
 
-        <article>
+        <article class="notes__days">
           <h3>Dzień 1 - 4.04.22.</h3>
           <p>
             - warstwy strony interntowej - TREŚĆ HTML CSS JAVASCRIPT<br />
@@ -55,25 +42,40 @@
           </p>
         </article>
 
-        <article>
+        <article class="notes__days">
           <h3>Dzień 2 - 5.04.22.</h3>
           <p>
             - CSS - podstawy stylów <br />
-            selektor { <br />
+            <p class="notes__days--italic">
+            selektor {<br>
             właściwość: wartość <br />
-            } <br />
+            } </p>
             - umieszczanie stylów - znacznik lub link do osobnego pliku
             style.css za pomocą linka<br />
           </p>
         </article>
 
-        <article>
+        <article class="notes__days">
           <h3>Dzień 3 - 6.04.22.</h3>
           <p>- html- nawigacja</p>
         </article>
+
+        <article class="notes__days">
+            <h3>Dzień 12 - 22.04.22.</h3>
+            <p>
+              - DOM - Document Object Model <br />
+              <p class="notes__days--js">
+                Za pomocą funkcji: <br>
+                const heading = document.querySelector('.main-heading--js')
+                heading.innerHTML = `Cześć, jestem ${firstName}`; </p>
+            </p>
+              <p class="notes__days--js">
+                dowolny tekst wpisany w js </p>
+            </p>
+          </article>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       To jest strona o frontendzie.
       <a class="all-links" href="#top">Powrót na górę</a>
     </footer>
